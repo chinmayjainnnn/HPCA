@@ -1,0 +1,9 @@
+script -c "bin/champsim --warmup_instructions 20000000 --simulation_instructions 50000000 ~/ChampSim/traces/600.perlbench_s-1273B.champsimtrace.xz" ~/ChampSim/results/Test_600.perlbench_s-1273B_$(date "+%Y.%m.%d-%H.%M.%S").txt
+script -c "bin/champsim --warmup_instructions 20000000 --simulation_instructions 50000000 ~/ChampSim/traces/605.mcf_s-782B.champsimtrace.xz" ~/ChampSim/results/Test_605.mcf_s-782B_$(date "+%Y.%m.%d-%H.%M.%S").txt
+script -c "bin/champsim --warmup_instructions 20000000 --simulation_instructions 50000000 ~/ChampSim/traces/620.omnetpp_s-141B.champsimtrace.xz" ~/ChampSim/results/Test_620.omnetpp_s-141B_$(date "+%Y.%m.%d-%H.%M.%S").txt
+
+
+
+script -c "bin/champsim --warmup_instructions 200000000 --simulation_instructions 500000000 ~/ChampSim/traces/600.perlbench_s-1273B.champsimtrace.xz" ~/ChampSim/results/Original_600.perlbench_s-1273B_$(date "+%Y.%m.%d-%H.%M.%S").txt
+script -c "bin/champsim --warmup_instructions 200000000 --simulation_instructions 500000000 ~/ChampSim/traces/605.mcf_s-782B.champsimtrace.xz" ~/ChampSim/results/Original_605.mcf_s-782B_$(date "+%Y.%m.%d-%H.%M.%S").txt
+script -c "bin/champsim --warmup_instructions 200000000 --simulation_instructions 500000000 ~/ChampSim/traces/620.omnetpp_s-141B.champsimtrace.xz" ~/ChampSim/results/Original_620.omnetpp_s-141B_$(date "+%Y.%m.%d-%H.%M.%S").txt
